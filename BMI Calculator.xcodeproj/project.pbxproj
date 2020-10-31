@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD0B9F9B230D64B30065EFD9 /* BMI-Calculator-LayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-Calculator-LayoutPractice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B9F9B230D64B30065EFD9 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F9E230D64B30065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9FA0230D64B30065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD0B9FA2230D64B30065EFD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		AD0B9F9C230D64B30065EFD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD0B9F9B230D64B30065EFD9 /* BMI-Calculator-LayoutPractice.app */,
+				AD0B9F9B230D64B30065EFD9 /* BMI Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +64,6 @@
 				AD0B9FB2230D64E70065EFD9 /* Views */,
 				AD0B9FB3230D64F00065EFD9 /* Controllers */,
 				AD0B9FA7230D64B50065EFD9 /* Assets.xcassets */,
-				AD0B9FA9230D64B50065EFD9 /* LaunchScreen.storyboard */,
 				AD0B9FAC230D64B50065EFD9 /* Info.plist */,
 			);
 			path = "BMI Calculator";
@@ -73,6 +72,7 @@
 		AD0B9FB2230D64E70065EFD9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD0B9FA9230D64B50065EFD9 /* LaunchScreen.storyboard */,
 				AD0B9FA4230D64B30065EFD9 /* Main.storyboard */,
 			);
 			path = Views;
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD0B9F9A230D64B30065EFD9 /* BMI-Calculator-LayoutPractice */ = {
+		AD0B9F9A230D64B30065EFD9 /* BMI Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "BMI-Calculator-LayoutPractice" */;
+			buildConfigurationList = AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "BMI Calculator" */;
 			buildPhases = (
 				AD0B9F97230D64B30065EFD9 /* Sources */,
 				AD0B9F98230D64B30065EFD9 /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = "BMI-Calculator-LayoutPractice";
+			name = "BMI Calculator";
 			productName = "BMI-Calculator-LayoutPractice";
-			productReference = AD0B9F9B230D64B30065EFD9 /* BMI-Calculator-LayoutPractice.app */;
+			productReference = AD0B9F9B230D64B30065EFD9 /* BMI Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD0B9F9A230D64B30065EFD9 /* BMI-Calculator-LayoutPractice */,
+				AD0B9F9A230D64B30065EFD9 /* BMI Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "BMI-Calculator-LayoutPractice" */ = {
+		AD0B9FAF230D64B50065EFD9 /* Build configuration list for PBXNativeTarget "BMI Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD0B9FB0230D64B50065EFD9 /* Debug */,
