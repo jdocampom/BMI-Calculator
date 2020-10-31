@@ -2,34 +2,39 @@
 //  ResultViewController.swift
 //  BMI Calculator
 //
-//  Created by Juan Diego Ocampo on 10/31/20.
-//  Copyright © 2020 Diego Ocampo. All rights reserved.
+//  Created by Juan Diego Ocampo on 31/10/2020.
+//  Copyright © 2020 Juan Diego Ocampo. All rights reserved.
 //
 
 import UIKit
 
 class ResultViewController: UIViewController {
-
-// MARK: IB-Outlets
-
-    @IBOutlet weak var bmiResultLabel: UILabel!
-    @IBOutlet weak var adviceLabel: UILabel!
     
 // MARK: Variables
     
-    let adviceText : [String] = ["A", "B", "C"]
+    var bmiValue: String?
+    var advice: String?
+    var color: UIColor?
+    
+// MARK: IB-Outlets
+
+    @IBOutlet weak var bmiLabel: UILabel!
+    @IBOutlet weak var adviceLabel: UILabel!
     
 // MARK: Methods
-        
+    
     /// Tag: viewDidLoad()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        bmiLabel.text = bmiValue
+        adviceLabel.text = advice
+        view.backgroundColor = color
     }
     
 // MARK: IB-Actions
     
-    @IBAction func recalculateButtonPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "recalculatePressed", sender: UIButton.self)
+    /// Tag: recalculatePressed()
+    @IBAction func recalculatePressed(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
 }

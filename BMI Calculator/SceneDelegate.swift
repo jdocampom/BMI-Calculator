@@ -3,7 +3,7 @@
 //  BMI Calculator
 //
 //  Created by Juan Diego Ocampo on 31/10/2020.
-//  Copyright © 2020 Juan Diego Ocampo. All rights reserved.
+//  Copyright © 20120 Juan Diego Ocampo. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 // MARK: Variables
 
     var window: UIWindow?
-    
+
 // MARK: Methods
     
     /// Tag: willConnectTo()
@@ -43,7 +43,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called when the scene will move from an active state to an inactive state.
         // This may occur due to temporary interruptions (ex. an incoming phone call).
     }
-    
+
     /// Tag: sceneWillEnterForeground()
     func sceneWillEnterForeground(_ scene: UIScene) {
         // Called as the scene transitions from the background to the foreground.
@@ -57,3 +57,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 }
+
